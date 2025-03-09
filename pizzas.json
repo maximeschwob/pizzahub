@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Margherita",
+    "description": "Classic pizza with tomato sauce, kosher mozzarella, and fresh basil.",
+    "price": 37.46,
+    "image": "/images/margherita.jpg",
+    "size": "L",
+    "ingredients": ["Tomato Sauce", "Kosher Mozzarella", "Basil"]
+  },
+ 
+  {
+    "name": "Mushrooms",
+    "description": "Tasty pizza with tomato sauce, kosher mozzarella, and fresh mushrooms.",
+    "price": 41.21,
+    "image": "/images/mush.jpg",
+    "size": "L",
+    "ingredients": ["Tomato Sauce", "Kosher Mozzarella", "Mushrooms"]
+  },
+  
+  {
+    "name": "Three Cheeses",
+    "description": "A mix of kosher mozzarella, Emmental, and goat cheese on a tomato sauce base.",
+    "price": 44.96,
+    "image": "/images/4fromages.jpg",
+    "size": "L",
+    "ingredients": ["Tomato Sauce", "Kosher Mozzarella", "Kosher Emmental", "Kosher Goat Cheese"]
+  },
+  
+  {
+    "name": "Vegetarian",
+    "description": "Pizza topped with fresh vegetables and kosher mozzarella.",
+    "price": 39.34,
+    "image": "/images/vegetarienne.jpg",
+    "size": "L",
+    "ingredients": ["Tomato Sauce", "Kosher Mozzarella", "Peppers", "Olives", "Tomatoes", "Onions"]
+  },
+  
+  {
+    "name": "Pesto & Cheese",
+    "description": "Pesto base with kosher mozzarella and parmesan.",
+    "price": 46.86,
+    "image": "/images/pesto.jpg",
+    "size": "L",
+    "ingredients": ["Kosher Pesto Sauce", "Kosher Mozzarella", "Kosher Parmesan"]
+  },
+  
+  {
+    "name": "Smoked Salmon",
+    "description": "Delicious pizza with kosher smoked salmon, cream cheese, capers, and red onions.",
+    "price": 55.21,
+    "image": "/images/salmon.jpg",
+    "size": "L",
+    "ingredients": ["Kosher Cream Cheese", "Kosher Mozzarella", "Kosher Smoked Salmon", "Capers", "Red Onions"]
+  }
+ 
+
+ 
+]

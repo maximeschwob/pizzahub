@@ -1,0 +1,83 @@
+[
+{
+    "_id": "679764bfa01f1448d0f2b292",
+    "username": "john_doe",
+    "email": "john.doe@example.com",
+    "password": "securePass123",
+    "role": "user",
+    "createdAt": "2025-01-27T10:49:35.156Z",
+    "__v": 0
+},
+{
+    "_id": "6797673706863b60dc44a825",
+    "username": "admin_user",
+    "email": "admin@example.com",
+    "password": "adminPass456",
+    "role": "admin",
+    "createdAt": "2025-01-27T11:00:07.489Z",
+    "__v": 0
+},
+{
+    "_id": "6797676c06863b60dc44a82b",
+    "username": "b",
+    "email": "adin@xample.com",
+    "password": "adminPass456",
+    "role": "admin",
+    "createdAt": "2025-01-27T11:01:00.124Z",
+    "__v": 0
+},
+{
+    "_id": "6797689a55bd20cbee05ab53",
+    "username": "maxime",
+    "email": "adfffvg@xample.com",
+    "password": "adminPass456",
+    "role": "admin",
+    "createdAt": "2025-01-27T11:06:02.199Z",
+    "__v": 0
+},
+{
+    "_id": "6798dcef7c8d2414729d2adb",
+    "username": "max",
+    "email": "afvg@xple.com",
+    "password": "$2a$10$fTxVB3SdrqE3zJA1w/E2TOJXjyIDboOjZete/y6RePH80k3cvegju",
+    "role": "user",
+    "createdAt": "2025-01-28T13:34:39.154Z",
+    "__v": 0
+},
+{
+    "_id": "67a0a4ec2d1972b56832199f",
+    "username": "makkkx",
+    "email": "axple@gmail.com",
+    "password": "$2a$10$59i.k4tfENKIadbLrAX8O.6qp/Kc2wY0peyPNY7MOvOu17/QVX.VC",
+    "role": "user",
+    "createdAt": "2025-02-03T11:13:48.898Z",
+    "__v": 0
+},
+{
+    "_id": "67a2080cbe3ac934e485a627",
+    "username": "makx",
+    "email": "ax@gmail.com",
+    "password": "$2a$10$dTmuXHfoWJxM/Nni7jZPXex4S20GIsDPRUQomfulHzYt6WmOYIIsq",
+    "role": "user",
+    "createdAt": "2025-02-04T12:29:00.198Z",
+    "__v": 0
+},
+{
+    "_id": "67a363dd0b8770524b3dd6d8",
+    "username": "shiiis",
+    "email": "shirej@gmail.com",
+    "password": "$2a$10$nfAIK8fuojQdVTPRsc9UIudEMzQq.o.tTuFoLUloikLXX/CoY.c2.",
+    "role": "user",
+    "createdAt": "2025-02-05T13:13:01.465Z",
+    "__v": 0
+},
+{
+    "_id": "67a365c606a2481d30ba21f8",
+    "username": "shis",
+    "email": "maximes@gmail.com",
+    "password": "Maxouloulou",
+    "role": "user",
+    "createdAt": "2025-02-05T13:21:10.039Z",
+    "__v": 0
+}
+]

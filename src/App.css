@@ -1,0 +1,74 @@
+/* Styles de base */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.pizza-form input,
+.pizza-form textarea,
+.pizza-form select,
+.pizza-form button {
+  padding: 10px;
+  margin: 5px;
+  width: 80%;
+  max-width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pizza-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.pizza-card {
+  width: 30%;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.pizza-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Media Query pour les écrans de moins de 1024px (tablettes) */
+@media (max-width: 1024px) {
+  .pizza-card {
+    width: 45%;
+  }
+}
+
+/* Media Query pour les écrans de moins de 768px (smartphones) */
+@media (max-width: 768px) {
+  .pizza-card {
+    width: 100%;
+  }
+
+  .pizza-form input,
+  .pizza-form textarea,
+  .pizza-form select,
+  .pizza-form button {
+    width: 90%;
+  }
+}
+
+/* Media Query pour les petits écrans (moins de 480px) */
+@media (max-width: 480px) {
+  .App-header h1 {
+    font-size: 1.5rem;
+  }
+}

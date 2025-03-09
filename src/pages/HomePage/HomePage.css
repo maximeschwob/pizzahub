@@ -1,0 +1,113 @@
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes pour grand écran */
+    gap: 20px; /* Espacement entre les cartes */
+    padding: 20px;
+    margin-top: 40px; /* Espace entre le titre et les cartes */
+    justify-items: center; /* Centre les éléments de la grille horizontalement */
+}
+
+.menu-title {
+    text-align: center; /* Centrer le texte horizontalement */
+    font-size: 2rem; /* Taille de la police (ajustez si nécessaire) */
+    font-weight: bold; /* Gras */
+    color: #333; /* Couleur du texte */
+    margin-top: 20px; /* Ajustez selon vos besoins */
+}
+
+/* Grille responsive */
+@media (max-width: 900px) {
+    .menu-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 colonnes pour écrans moyens */
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-container {
+        grid-template-columns: 1fr; /* 1 colonne pour petits écrans */
+    }
+}
+
+.pizza-card {
+    background: #fff;
+    border-radius: 10px;
+    padding-top: 80px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+    width: 100%; /* Faire en sorte que la carte prenne toute la largeur de sa colonne */
+    max-width: 300px; /* Limiter la taille des cartes */
+}
+
+.pizza-card:hover {
+    transform: scale(1.05);
+}
+
+.pizza-image {
+    width: 100%; /* Prend toute la largeur de la carte */
+    height: 200px; /* Ajustez la hauteur selon vos besoins */
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.pizza-info {
+    display: block;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.add-to-cart-button {
+    background: #ff5733;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.size-button {
+    background: #ff5733;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.size-button:hover {
+    background: #e64c2c;
+}
+
+.add-to-cart-button:hover {
+    background: #e64c2c;
+}
+.search-bar {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #f80c0c;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pizza-image {
+    display: block;
+  }
+  
+  .image-alt {
+    display: none;
+    font-size: 14px;
+    color: #f80c0c;
+    margin-top: 5px;
+    
+  }
+  
+  .pizza-card img:only-child + .image-alt {
+    display: block; /* Afficher le texte alternatif si l'image échoue */
+  }
+  

@@ -1,0 +1,107 @@
+/* src/pages/SignUp/SignUp.css */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f56c6c, #ffb89f); /* Dégradé de couleurs */
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .signup-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .signup-form {
+    background-color: white;
+    color: #333;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    transform: translateY(50px);
+    opacity: 0;
+    animation: fadeIn 0.8s forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .input-container {
+    margin-bottom: 25px;
+  }
+  
+  .form-label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+    background-color: #f9f9f9;
+  }
+  
+  .form-input:focus {
+    border-color: #f56c6c;
+    background-color: #fff8f8;
+  }
+  
+  .signup-button {
+    padding: 12px;
+    background-color: #f56c6c;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-button:hover {
+    background-color: #ffb89f;
+  }
+  
+  .signup-button:focus {
+    outline: none;
+  }
+  
+  @media (max-width: 500px) {
+    .signup-container {
+      padding: 10px;
+    }
+  
+    .signup-form {
+      padding: 25px;
+    }
+  
+    .signup-title {
+      font-size: 2rem;
+    }
+  }
+  
